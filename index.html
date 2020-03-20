@@ -3,11 +3,257 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/styles.css" type="text/css">
   <title>Wikipedia Clone</title>
 </head>
 <body>
+    <div class="sidebar">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Wikipedia-logo-en-big.png" style="width:100px;">
+
+      <div class="side-box">
+        <ul>
+          <li><a href="#">Main page</a></li>
+          <li><a href="#">Contents</a></li>
+          <li><a href="#">Featured content</a></li>
+          <li><a href="#">Current events</a></li>
+          <li><a href="#">Random article</a></li>
+          <li><a href="#">Donate to Wikipedia</a></li>
+          <li><a href="#">Wikipedia store</a></li>
+        </ul>
+      </div>
+
+      <div class="side-box">
+        <ul>
+          <li><h4>Interaction</h4></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">About Wikipedia</a></li>
+          <li><a href="#">Comunity portal</a></li>
+          <li><a href="#">Recent changes</a></li>
+          <li><a href="#">Contact page</a></li>
+        </ul>
+      </div>
+
+      <div class="side-box">
+        <ul>
+          <li><h4>Tools</h4></li>
+          <li><a href="#">What links here</a></li>
+          <li><a href="#">Related changes</a></li>
+          <li><a href="#">Upload file</a></li>
+          <li><a href="#">Special pages</a></li>
+          <li><a href="#">Permanent link</a></li>
+          <li><a href="#">Page information</a></li>
+          <li><a href="#">Wikidata item</a></li>
+        </ul>
+      </div>
+
+      <div class="side-box">
+        <ul>
+          <li><h4>In other projects</h4></li>
+          <li><a href="#">Wikimedia Commons</a></li>
+          <li><a href="#">MediaWiki</a></li>
+          <li><a href="#">Meta-Wiki</a></li>
+          <li><a href="#">Wikispecies</a></li>
+          <li><a href="#">Wikibooks</a></li>
+          <li><a href="#">Wikidata</a></li>
+          <li><a href="#">Wikimania</a></li>
+          <li><a href="#">Wikinews</a></li>
+          <li><a href="#">Wikiquote</a></li>
+          <li><a href="#">Wikisource</a></li>
+          <li><a href="#">Wikiversity</a></li>
+          <li><a href="#">Wikivoyage</a></li>
+          <li><a href="#">Wiktionary</a></li>
+        </ul>
+      </div>
+
+      
+    </div>
+
+    <div class="container" id="main-content">
+
+      <div class="row">
+        <div class="top-menu">
+          <ul>
+            <li>
+              <img src="https://en.wikipedia.org/w/skins/Vector/resources/skins.vector.styles/images/user-avatar.svg">
+              Not Logged in</li>
+            <li><a href="#">Talk</a></li>
+            <li><a href="#">Contributions</a></li>
+            <li><a href="#">Create account</a></li>
+            <li><a href="#">Log in</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="top-nav-bar">
+          <div class="top-nav-left">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Main Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Talk</a>
+              </li>
+            </ul>
+          </div>
+          <div class="top-nav-right">
+            <ul class="nav nav-tabs">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Read</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">View source</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">View history</a>
+              </li>
+              <li>
+                <input type="text" placeholder="Search Wikipedia">
+                <input type="submit" class="search-bar-submit" value="Go">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-wrapper">
+
+        <div class="row">
+          <div class="well" id="welcome-well">
+            <div class="welcome-bar">
+              <div class="welcome-left">
+                <div>
+                  <h3>Welcome to <a href="#">Wikipedia</a>,</h3>
+                </div>
+                <div>
+                  the <a href="#">free encyclopedia</a> that <a href="#">anyone can edit</a>.
+                </div>
+                <div>
+                  <a href="#">6,037,156</a> articles in <a href="#">English</a>
+                </div>
+              </div>
+              <div class="welcome-right">
+                <ul>
+                  <li><a href="#">Arts</a></li>
+                  <li><a href="#">Biography</a></li>
+                  <li><a href="#">Geography</a></li>
+                  <li><a href="#">History</a></li>
+                  <li><a href="#">Mathematics</a></li>
+                  <li><a href="#">Science</a></li>
+                  <li><a href="#">Society</a></li>
+                  <li><a href="#">Technology</a></li>
+                  <li><a href="#">All portals</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--PANELS-->
+
+      <div class="row">
+        <div class="col-wrapper">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <h2 class="panel-title">From today's featured article</h2>
+                </div>
+                <div class="panel-body">
+                  <div class="panel-img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Luis_Miguel.jpg/120px-Luis_Miguel.jpg">
+                    <footer>Luis Miguel</footer>
+                  </div>
+                  <div class="panel-text">
+                    <p>Aries is the ninth studio album by Mexican recording artist Luis Miguel (pictured). Released by WEA Latina in 1993, it features pop ballads and dance numbers with R&B influences. "Ayer" and "Hasta Que Me Olvides", two of the album's three singles released for sale, topped the US Billboard Hot Latin Songs chart. "Hasta el Fin" and "Tú y Yo" were released as promotional singles, both peaking at number four on that chart. Aries stayed at number one on the US Billboard Latin Pop Albums for 19 weeks. It sold over one million copies in Mexico, and over two million copies worldwide through 2000. Upon its release, the album received mixed reviews from music critics; they were divided on the dance tunes and ballads, although Miguel's vocals and the album's arrangements garnered positive reactions. The Aries Tour promoted the record in Latin America and the United States. Miguel received several accolades for the album, including the Grammy Award for Best Latin Pop Album. (Full article...)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <h2 class="panel-title">From today's featured article</h2>
+                </div>
+                <div class="panel-body">
+                  <div class="panel-img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Luis_Miguel.jpg/120px-Luis_Miguel.jpg">
+                    <footer>Luis Miguel</footer>
+                  </div>
+                  <div class="panel-text">
+                    <p>Aries is the ninth studio album by Mexican recording artist Luis Miguel (pictured). Released by WEA Latina in 1993, it features pop ballads and dance numbers with R&B influences. "Ayer" and "Hasta Que Me Olvides", two of the album's three singles released for sale, topped the US Billboard Hot Latin Songs chart. "Hasta el Fin" and "Tú y Yo" were released as promotional singles, both peaking at number four on that chart. Aries stayed at number one on the US Billboard Latin Pop Albums for 19 weeks. It sold over one million copies in Mexico, and over two million copies worldwide through 2000. Upon its release, the album received mixed reviews from music critics; they were divided on the dance tunes and ballads, although Miguel's vocals and the album's arrangements garnered positive reactions. The Aries Tour promoted the record in Latin America and the United States. Miguel received several accolades for the album, including the Grammy Award for Best Latin Pop Album. (Full article...)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-wrapper">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h2 class="panel-title">From today's featured article</h2>
+                </div>
+                <div class="panel-body">
+                  <div class="panel-img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Luis_Miguel.jpg/120px-Luis_Miguel.jpg">
+                    <footer>Luis Miguel</footer>
+                  </div>
+                  <div class="panel-text">
+                    <p>Aries is the ninth studio album by Mexican recording artist Luis Miguel (pictured). Released by WEA Latina in 1993, it features pop ballads and dance numbers with R&B influences. "Ayer" and "Hasta Que Me Olvides", two of the album's three singles released for sale, topped the US Billboard Hot Latin Songs chart. "Hasta el Fin" and "Tú y Yo" were released as promotional singles, both peaking at number four on that chart. Aries stayed at number one on the US Billboard Latin Pop Albums for 19 weeks. It sold over one million copies in Mexico, and over two million copies worldwide through 2000. Upon its release, the album received mixed reviews from music critics; they were divided on the dance tunes and ballads, although Miguel's vocals and the album's arrangements garnered positive reactions. The Aries Tour promoted the record in Latin America and the United States. Miguel received several accolades for the album, including the Grammy Award for Best Latin Pop Album. (Full article...)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h2 class="panel-title">From today's featured article</h2>
+                </div>
+                <div class="panel-body">
+                  <div class="panel-img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Luis_Miguel.jpg/120px-Luis_Miguel.jpg">
+                    <footer>Luis Miguel</footer>
+                  </div>
+                  <div class="panel-text">
+                    <p>Aries is the ninth studio album by Mexican recording artist Luis Miguel (pictured). Released by WEA Latina in 1993, it features pop ballads and dance numbers with R&B influences. "Ayer" and "Hasta Que Me Olvides", two of the album's three singles released for sale, topped the US Billboard Hot Latin Songs chart. "Hasta el Fin" and "Tú y Yo" were released as promotional singles, both peaking at number four on that chart. Aries stayed at number one on the US Billboard Latin Pop Albums for 19 weeks. It sold over one million copies in Mexico, and over two million copies worldwide through 2000. Upon its release, the album received mixed reviews from music critics; they were divided on the dance tunes and ballads, although Miguel's vocals and the album's arrangements garnered positive reactions. The Aries Tour promoted the record in Latin America and the United States. Miguel received several accolades for the album, including the Grammy Award for Best Latin Pop Album. (Full article...)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--PURPLE PINK ROWS-->
+
+      <div class="row">
+        <div class="panel panel-danger">
+          <div class="panel-heading">
+            <h2 class="panel-title">From today's featured article</h2>
+          </div>
+          <div class="panel-body">
+            <div class="panel-img">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Luis_Miguel.jpg/120px-Luis_Miguel.jpg">
+              <footer>Luis Miguel</footer>
+            </div>
+            <div class="panel-text">
+              <p>Aries is the ninth studio album by Mexican recording artist Luis Miguel (pictured). Released by WEA Latina in 1993, it features pop ballads and dance numbers with R&B influences. "Ayer" and "Hasta Que Me Olvides", two of the album's three singles released for sale, topped the US Billboard Hot Latin Songs chart. "Hasta el Fin" and "Tú y Yo" were released as promotional singles, both peaking at number four on that chart. Aries stayed at number one on the US Billboard Latin Pop Albums for 19 weeks. It sold over one million copies in Mexico, and over two million copies worldwide through 2000. Upon its release, the album received mixed reviews from music critics; they were divided on the dance tunes and ballads, although Miguel's vocals and the album's arrangements garnered positive reactions. The Aries Tour promoted the record in Latin America and the United States. Miguel received several accolades for the album, including the Grammy Award for Best Latin Pop Album. (Full article...)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
 
   
 </body>

@@ -1,0 +1,147 @@
+.container {
+  width: 85%;
+  margin-right: 20px;
+}
+
+.content-wrapper {
+
+}
+
+#main-content {
+  float: right;
+
+}
+
+.sidebar {
+  padding: 25px;
+  font-size: 6;
+  float: left;
+}
+
+.side-box {
+  margin-top: 20px;
+  text-align: left;
+}
+.side-box ul {
+  list-style-type: none;
+}
+
+.side-box li {
+  font-size: 6;
+}
+
+.side-box h4{
+  text-decoration: underline;
+}
+
+.welcome-left {
+  float: left;
+  text-align: center;
+}
+
+.welcome-right {
+  float: right;
+  padding-right: 20px;
+}
+
+.welcome-right ul {
+  columns: 3;
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.welcome-right li {
+  margin: 0 50px 5px 0;
+}
+
+.welcome-bar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+#welcome-well {
+  height: 150px;
+}
+
+.footer {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.top-menu {
+  float: right;
+}
+
+.top-menu ul {
+  columns: 5;
+  list-style-type: none;
+  display: flex;
+}
+
+.top-menu li {
+  margin-right: 10px;
+}
+
+
+.top-nav-left {
+  float: left;
+}
+
+.top-nav-right {
+  float: right;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.top-nav-bar {
+  margin-bottom: 25px;
+}
+
+.top-nav-bar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.search-bar-submit {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/7e/Vector_search_icon.svg);
+  background-repeat: no-repeat;
+  background-color: transparent;
+
+  position: absolute;
+  top: 5px;
+  bottom: 1px;
+  right: 1px;
+  min-width: 24px;
+  width: 1.84615385em;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  font-size: 0.8125em;
+  direction: ltr;
+  text-indent: -99999px;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.panel-img {
+  float: left;
+  margin: 5px;
+}
+
+.panel-text {
+  margin: 5px;
+  vertical-align: top;
+}
+
+
+.panel-title {
+  font-weight: bold;
+  color: black;
+}
